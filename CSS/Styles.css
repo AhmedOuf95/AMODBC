@@ -8,22 +8,26 @@ body {
 
 .f-27{
     font-size: 27px;
+    color: #c4c4c4;
 }
 
 .f-18{
     font-size: 18px;
+    color: #c4c4c4;
 }
 
 .f-24{
     font-size: 24px;
+    color: #c4c4c4;
 }
 
 .f-12{
     font-size: 12px;
+    color: #c4c4c4;
 }
 
 .box{
-    background: #ffff;
+    background:linear-gradient(30deg, #5b2dce, #8c3c7a);
     border-radius: 20px;
     box-shadow: 0px 8px 60px -10px rgb(13 28 39 / 60%);
 }
@@ -31,7 +35,7 @@ body {
 .profile-img img{
     width: 150px;
     height: 150px;
-    box-shadow: rgb(45, 102, 202) 0px 5px 50px 0px, rgba(75, 133, 214, 0.73) 0px 0px 0px 7px;
+    box-shadow: rgb(45, 102, 202) 0px 5px 50px 0px, rgba(225, 50, 205, 0.73) 0px 0px 0px 7px;
 }
 
 .m-top{
@@ -60,14 +64,19 @@ body {
     box-shadow: 0px 4px 20px rgb(43 98 169 / 50%);
 }
 
+.box a.github{
+    background: linear-gradient(45deg, #323336, #323336);
+    box-shadow: 0px 4px 20px #323336;
+}
+
 .box a.phone{
-    background: linear-gradient(45deg, #3b5998, #0078d7);
-    box-shadow: 0px 4px 20px rgb(43 98 169 / 50%);
+    background: linear-gradient(45deg, #f6ff00b8, #f6ff00b8);
+    box-shadow: 0px 4px 20px #f6ff0082;
 }
 
 .box a.whatsapp{
-    background: linear-gradient(45deg, #3b5998, #0078d7);
-    box-shadow: 0px 4px 20px rgb(43 98 169 / 50%);
+    background: linear-gradient(45deg, #00cb11, #00cb11);
+    box-shadow: 0px 4px 20px #00cb11;
 }
 
 /* .Designed{
@@ -75,10 +84,8 @@ body {
 } */
 
 .Designed a{
-    color: #001eff;
+    color: #f6ff00;
     text-decoration: none;
+    font-weight: bold;
 }
 
-.Designed a :hover{
-    font-size: larger;
-}
