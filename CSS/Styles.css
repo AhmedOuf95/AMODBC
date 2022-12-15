@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: linear-gradient(-20deg, #26a0da 0%, #314755 100%);
+    ;
+}
+
+.f-27{
+    font-size: 27px;
+}
+
+.f-18{
+    font-size: 18px;
+}
+
+.f-24{
+    font-size: 24px;
+}
+
+.f-12{
+    font-size: 12px;
+}
+
+.box{
+    background: #ffff;
+    border-radius: 20px;
+    box-shadow: 0px 8px 60px -10px rgb(13 28 39 / 60%);
+}
+
+.profile-img img{
+    width: 150px;
+    height: 150px;
+    box-shadow: rgb(45, 102, 202) 0px 5px 50px 0px, rgba(75, 133, 214, 0.73) 0px 0px 0px 7px;
+}
+
+.m-top{
+    margin-top: -80px;
+}
+
+.box a{
+    width: 50px;
+    height: 50px;
+    color: #fff;
+}
+
+/* .followers{
+    background: linear-gradient(45deg, #3b5998, #0078d7);
+    box-shadow: 0px 4px 20px rgb(43 98 169 / 50%);
+ 
+} */
+
+.box a.linkedin{
+    background: linear-gradient(45deg, #3b5998, #0078d7);
+    box-shadow: 0px 4px 20px rgb(43 98 169 / 50%);
+}
+
+.box a.facebook{
+    background: linear-gradient(45deg, #3b5998, #0078d7);
+    box-shadow: 0px 4px 20px rgb(43 98 169 / 50%);
+}
+
+.box a.phone{
+    background: linear-gradient(45deg, #3b5998, #0078d7);
+    box-shadow: 0px 4px 20px rgb(43 98 169 / 50%);
+}
+
+.box a.whatsapp{
+    background: linear-gradient(45deg, #3b5998, #0078d7);
+    box-shadow: 0px 4px 20px rgb(43 98 169 / 50%);
+}
+
+/* .Designed{
+    background-color: #314755;
+} */
+
+.Designed a{
+    color: #001eff;
+    text-decoration: none;
+}
+
+.Designed a :hover{
+    font-size: larger;
+}
